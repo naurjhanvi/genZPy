@@ -60,12 +60,13 @@ You can also run GenZPy code from a regular Python script:
 ```python
 from genzpy import run
 
-my_code = '''
-vibe_check x = 10
-fr x > 5
-    bro_print 'it’s giving... facts'
+# Corrected GenZPy code
+my_code = """
+vibe check x = 10
+fr if x > 5
+    bro print 'its giving... facts'
 fin
-'''
+"""
 
 run(my_code)
 ```
