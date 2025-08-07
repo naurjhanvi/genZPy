@@ -41,8 +41,8 @@ glow_up greet(name)
     spill 'wassup ' + name
 fin
 
-vibe_check message = greet('fam')
-bro_print message
+vibe check message = greet('fam')
+bro print message
 ```
 
 3. Run it from your terminal:
